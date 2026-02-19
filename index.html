@@ -106,11 +106,21 @@
 							<p>Feel free to ask us questions about our farm and products. We would enjoy the opportunity to see you at our farm.</p>
 							<div class="split style1">
 								<section>
-									<form action="https://formsubmit.co/wheatleyfarmswooster@gmail.com" method="POST">
-										<input type="text" name="name" required placeholder="Name">
-										<input type="email" name="email" required placeholder="Email">
-										<textarea type="msg" name="message" required placeholder="Message"></textarea>
-										<button type="submit">Send Message</button>
+									<form target="_blank" action="https://formsubmit.co/wheatleyfarmswooster@gmail.com" method="POST">
+										<div class="form-group">
+											<div class="form-row">
+												<div class="col">
+													<input type="text" name="name" class="form-control" placeholder="Full Name" required>
+												</div>
+												<div class="col">
+													<input type="email" name="email" class="form-control" placeholder="Email Address" required>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<textarea type="msg" placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+										</div>
+										<button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
 									</form>
 								</section>
 								<section>
